@@ -1,4 +1,4 @@
-/* supports-version:16.3 */
+/* supports-version:16.8 */
 @import url(reeder/claro-mod.min.css);
 /* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800); */
 
@@ -1905,7 +1905,9 @@ img[src*="plugins/tweet/tweet.png"] {
 
 /* article_toolbar modification */
 img[src*="plugins/article_toolbar_small/images/feed.png"],
-img[src*="plugins/article_toolbar/images/feed.png"] {
+img[src*="plugins/article_toolbar/images/feed.png"],
+img[src*="plugins.local/article_toolbar_small/images/feed.png"],
+img[src*="plugins.local/article_toolbar/images/feed.png"] {
   background-image: url(reeder/images/rss.png);
   height: 24px;
 	padding-right: 24px;
@@ -1914,7 +1916,9 @@ img[src*="plugins/article_toolbar/images/feed.png"] {
 }
 
 img[src*="plugins/article_toolbar_small/images/list.png"],
-img[src*="plugins/article_toolbar/images/list.png"] {
+img[src*="plugins/article_toolbar/images/list.png"],
+img[src*="plugins.local/article_toolbar_small/images/list.png"],
+img[src*="plugins.local/article_toolbar/images/list.png"] {
   background-image: url(reeder/images/list.png);
   height: 24px;
 	padding-right: 24px;
@@ -1923,7 +1927,9 @@ img[src*="plugins/article_toolbar/images/list.png"] {
 }
 
 img[src*="plugins/article_toolbar_small/images/read.png"],
-img[src*="plugins/article_toolbar/images/read.png"] {
+img[src*="plugins/article_toolbar/images/read.png"],
+img[src*="plugins.local/article_toolbar_small/images/read.png"],
+img[src*="plugins.local/article_toolbar/images/read.png"] {
   background-image: url(reeder/images/read.png);
   height: 24px;
 	padding-right: 24px;
@@ -1932,7 +1938,9 @@ img[src*="plugins/article_toolbar/images/read.png"] {
 }
 
 img[src*="plugins/article_toolbar_small/images/refresh.png"],
-img[src*="plugins/article_toolbar/images/refresh.png"] {
+img[src*="plugins/article_toolbar/images/refresh.png"],
+img[src*="plugins.local/article_toolbar_small/images/refresh.png"],
+img[src*="plugins.local/article_toolbar/images/refresh.png"] {
   background-image: url(reeder/images/refresh.png);
   height: 24px;
 	padding-right: 24px;
@@ -1941,7 +1949,9 @@ img[src*="plugins/article_toolbar/images/refresh.png"] {
 }
 
 img[src*="plugins/article_toolbar_small/images/up.png"],
-img[src*="plugins/article_toolbar/images/up.png"] {
+img[src*="plugins/article_toolbar/images/up.png"],
+img[src*="plugins.local/article_toolbar_small/images/up.png"],
+img[src*="plugins.local/article_toolbar/images/up.png"] {
   background-image: url(reeder/images/up.png);
   height: 24px;
 	padding-right: 24px;
@@ -1950,7 +1960,9 @@ img[src*="plugins/article_toolbar/images/up.png"] {
 }
 
 img[src*="plugins/article_toolbar_small/images/down.png"],
-img[src*="plugins/article_toolbar/images/down.png"] {
+img[src*="plugins/article_toolbar/images/down.png"],
+img[src*="plugins.local/article_toolbar_small/images/down.png"],
+img[src*="plugins.local/article_toolbar/images/down.png"] {
   background-image: url(reeder/images/down.png);
   height: 24px;
 	padding-right: 24px;
